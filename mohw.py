@@ -2,6 +2,8 @@ import asyncio
 import discord
 import openpyxl
 
+token=os.environ["TOKEN"]
+
 client = discord.Client()
 
 @client.event
@@ -35,5 +37,4 @@ async def my_background_task():
 
 client.loop.create_task(my_background_task())
 
-access_token = os.environ["BOT_TOKEN"]
-client.run('BOT_TOKEN')
+client.run(token)
