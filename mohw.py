@@ -1,6 +1,5 @@
 import asyncio
 import discord
-import openpyxl
 
 token=os.environ["TOKEN"]
 
