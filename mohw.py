@@ -1,5 +1,6 @@
 import asyncio
 import discord
+import os
 
 token=os.environ["TOKEN"]
 
